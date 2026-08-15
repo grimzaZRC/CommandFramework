@@ -1,0 +1,35 @@
+{
+  "format_version": 2,
+  "metadata": {
+    "authors": [
+      "grimza_zrc"
+    ]
+  },
+  "header": {
+    "name": "§bCommand Framework",
+    "description": "§aTyped chat commands with subcommands and permissions§r",
+    "min_engine_version": [1, 20, 80],
+    "uuid": "d87ec4bc-dc20-4d69-9c5d-7257c89302d0",
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "30748b21-c2d1-4212-9de4-11c7247335fd",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "bd48aa1c-46fd-49b8-ae42-407f41648e01",
+      "entry": "scripts/main.js",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "beta"
+    }
+  ]
+}
