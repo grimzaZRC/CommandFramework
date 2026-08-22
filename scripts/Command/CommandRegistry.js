@@ -6,7 +6,7 @@
  * this handles prefix detection, tokenizing (with quoted-string support),
  * argument parsing, permission checks, and usage/help messages.
  *
- * @author (grimza_zrc)
+ * @author (developer6087)
  * @license MIT
  */
 import { Player, world } from '@minecraft/server';
